@@ -1,0 +1,59 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/bin/
+/dist/
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+coverage.html
+
+# Dependency directories (managed by Go modules)
+/vendor/
+
+# Go module cache
+/go/pkg/mod/
+
+# Temporary files
+*.tmp
+*.swp
+*~.bak
+
+# IDE and editor files
+.idea/
+*.iml
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Log files
+*.log
+
+# Environment variable files
+.env
+.env.local
+*.env
+
+# Build artifacts
+build/
+tmp/
+
+# Documentation generated files
+/docs/_build/
+/docs/*.pdf
+
+# Profiling and debugging
+*.prof
+*.trace
+
+# macOS specific
+.DS_Store
+
+# Dependency lock files (optional, include if you want to commit them)
+# go.sum
