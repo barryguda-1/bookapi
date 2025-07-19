@@ -1,3 +1,3 @@
-module github.com/barryguda-1/bookapi
+module bookapi
 
 go 1.23.1
